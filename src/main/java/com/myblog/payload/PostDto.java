@@ -1,11 +1,11 @@
 package com.myblog.payload;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 //@Data //used instead for getters and setters
-@AllArgsConstructor //used to initialize all variables..
+//@Getter
+//@Setter
+@AllArgsConstructor //used to initialize all variables.
 @NoArgsConstructor //used for default constructor..
 public class PostDto {
     private long id;

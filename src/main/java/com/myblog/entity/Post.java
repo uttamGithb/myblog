@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
-
+//@Data
 //@Data  //used instead for getters and setters
 @AllArgsConstructor //used to initialize all variables..
 @NoArgsConstructor //used for default constructor..
@@ -23,6 +23,7 @@ public class Post {
     private String description;
     @Column(name = "content",nullable = false,unique = true)
     private String content;
+
 
     public long getId() {
         return id;
